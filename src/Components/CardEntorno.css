@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-color: rgb(35, 21, 66);*/
+    
+}
+
+.Entornos{
+    border: solid 4px #6e436e ;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60rem;
+    background-color: #fff;
+    margin: 0 auto;
+    
+}
+.Email{
+    width: 100%;
+    background-color: #ecdeec;
+    border: solid #ecdeec;
+    padding: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Text-Entorno{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.workspace-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    margin-bottom: 10px;
+}
+.Canals-text{
+    background-color: #6200ea; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.FuntionCard{
+    flex: 1;
+}
